@@ -8,9 +8,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource      #当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver        #mysql驱动包
-    url: jdbc:mysql://localhost:3306/cloud_study?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://112.123.63.68:53306/cloud?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password: root
+    password: YUNQifan2019@.
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
